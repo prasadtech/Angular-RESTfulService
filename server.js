@@ -87,4 +87,6 @@ process.on('SIGINT', function() {
     console.log('SIGINT: Closing MongoDB connection');
     DB.close();
 });
+console.log.message("function is printed");
+
 
